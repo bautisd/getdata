@@ -51,20 +51,7 @@ I used a loop instead of hard coding in the event that there was an update to th
 ### Extract the mean and std columns
 I used grep for mean and std in the column names to extract the numerical indexes
 I subsetted the merged data set with these column names and subject, activity
+Then aggregated by the subject and activity columns with MEAN as the function
 
-
-
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r}
-summary(cars)
-```
-
-You can also embed plots, for example:
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Output
+is written to working directory as output.txt
